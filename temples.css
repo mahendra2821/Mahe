@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.card {
+  background-color: #d2e8f7;
+  height: 95vh;
+  background-size: cover;
+  margin: 10px;
+}
+.card1 {
+  background-color: #68e43ba3;
+  height: 23vh;
+  margin: 40px;
+  border-radius:35px;
+  margin-left: 170px;
+  margin-right: 170px;
+  border-style: double;
+border-color: rgb(84, 6, 251);
+border-block-end-style: dotted;
+margin-top:15px;
+}
+.heading {
+  color: rgba(217, 16, 16, 0.99);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px;
+  font-size: 50px;
+  font-style: normal;
+  
+}
+.image {
+  height: 45vh;
+  width: 20vw;
+border-radius: 200px;
+ clip-path: circle();
+  margin-top: 15px;
+  margin-left: 35px; 
+
+}
+
+.card2 {
+  padding: 1px;
+}
+.para {
+  margin-left: 65px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(49, 9, 19);
+  font-size: 25px;
+
+}
+.button {
+  height: 8vh;
+  width: 15vw;
+  background-color: blue;
+  color: ghostwhite;
+  margin-top: 200px;
+  margin-left: 120px;
+  border-radius: 15px;
+  border-width: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: rgb(240, 12, 8);
+}
+.card3 {
+  background-color: rgb(236, 229, 214);
+  background-size: cover;
+  height: 40vh;
+  width: 95vw;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.image1 {
+  height: 35vh;
+  width: 15vw;
+border-radius: 200px;
+ clip-path: circle();
+  margin-top: 15px;
+  margin-left: 35px; 
+}
+.button1 {
+  height: 8vh;
+  width: 10vw;
+  background-color: blue;
+  color: ghostwhite;
+  margin-top: 200px;
+  margin-left: 80px;
+  border-radius: 15px;
+  border-width: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: rgb(240, 12, 8);
+}
+.image2 {
+  height: 40vh;
+  width: 20vw;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: blue;
+  border-width: 3px;
+  clip-path: circle();
+  margin-left: 35px;
+  
+  
+}
+.card4 {
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  height: 30vh;
+  width: 95vw;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+.heading1 {
+  margin-left: 45px;
+  margin-top: 10px;
+  font-size: 35px;
+  text-decoration: dotted;
+  color: rgb(22, 3, 195);
+  text-decoration-color: rgb(52, 2, 13) ;
+  text-decoration: underline;
+}
+.para2 {
+  font-size: 14px; 
+  font-family: "bree serif";
+
+}
+.button2 {
+  height: 8vh;
+  width: 10vw;
+  background-color: blue;
+  color: ghostwhite;
+  margin-left: 900px;
+  border-radius: 15px;
+  border-width: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: rgb(240, 12, 8);
+}
+.button3 {
+  height: 8vh;
+  width: 10vw;
+  background-color: blue;
+  color: ghostwhite;
+  margin-left: 10px;
+  border-radius: 15px;
+  border-width: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: rgb(240, 12, 8);
+}
+.image5 {
+
+  width: 45vw;
+  margin-left: 40px;
+  margin-top: 50px;
+  padding: 20px;
+
+}
+.button4 {
+  height: 8vh;
+  width: 10vw;
+  background-color: blue;
+  color: ghostwhite;
+  margin-right:170px;
+  border-radius: 15px;
+  border-width: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: rgb(240, 12, 8);
+  margin-top: 100px;
+}
+.card5 {
+  margin: 20px;
+  background-color: darkgray;
+  height: 95vh;
+}
+.para3 {
+  margin-left: 100px;
+  color: red;
+  font-weight: bold;
+  font-family: "roboto";
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+
+
+
+
+
