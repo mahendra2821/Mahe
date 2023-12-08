@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="temples.css">
+ </head>
+  <body>
+    <div id="sectionhomepage">
+        <div class="card">
+    <div class="card1">
+      <h1 class="heading">FAMOUS TEMPLES IN INDIA...</h1>
+      </div>
+      <p class="para3">CLICK ON IMAGES</p>
+      <div class="d-flex flex-row">
+        <div class="card2">
+      <img src=" https://i.pinimg.com/736x/32/de/91/32de91de88d57df44b49241db81caebe.jpg " class="image" onclick="display('sectionmeenakshipage')"/>
+      <p class="para"> Meenakshi Temple</p>
+      </div>
+      <div class="card2">
+      <img src="https://uttarakhandtourism.gov.in/sites/default/files/2020-09/Kedarnath%20Temple.jpg"class="image" onclick="display('sectionKedarnathpage')"/>
+      <p class="para">  Kedarnath Temple</p>
+ </div>
+ <div class="card2">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Konarka_Temple.jpg/1200px-Konarka_Temple.jpg "class="image" onclick="display('sectionkonarkpage')"/>
+  <p class="para">Konark Sun Temple </p>
+  </div>
+  <button class="button" onclick="display('sectionmoreimages')">VIEW MORE</button>
+</div> 
+</div>
+</div>
+<div id="sectionmoreimages">
+  <div class="d-flex flex-row">
+    <div class="card2">
+  <img src="  https://wallpapercave.com/wp/wp5343671.jpg " class="image1"  onclick="display('sectiongoldentemple')"/>
+  <h1 class="para">Golden Temple</h1>
+  </div>
+  <div class="card2">
+  <img src=" https://image3.mouthshut.com/images/imagesp/925752500s.jpg " class="image1"  onclick="display('sectionbadrinathpage')"/>
+  <h1 class="para">Badrinath Temple</h1>
+  </div>
+  <div class="d-flex flex-row">
+    <div class="card2">
+  <img src=" https://images.news18.com/ibnlive/uploads/2021/08/somnath-temple.jpg " class="image1"  onclick="display('sectionsomanthtemple')"/>
+  <h1 class="para">Somnath temple</h1>
+  </div>
+  <div class="card2">
+    <img src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-rth7jee52gtb10m9drgsss70r4-20200222055720.Medi.jpeg" class="image1"  onclick="display('sectionRamanathaswamytemple')"/>
+    <h1 class="para"> Ramanathaswamy<br/> Temple</h1>
+    </div>
+      <div class="card2">
+    <img src=" https://static.toiimg.com/photo/77247142.cms " class="image1"  onclick="display('sectionGangotriTemple')"/>
+    <h1 class="para">Gangotri Temple</h1>
+  </div>
+  </div>
+  </div>
+  <div class="d-flex flex-row">
+    <div class="card2">
+  <img src=" https://spiderimg.amarujala.com/assets/images/2021/12/12/kashi-vishwanath-corridor_1639282083.jpeg " class="image1"  onclick="display('sectionKashiVishwanathTemple')"/>
+  <h1 class="para">Kashi Vishwanath<br/> Temple</h1>
+  </div>
+  <div class="card2">
+  <img src="https://images.newindianexpress.com/uploads/user/imagelibrary/2021/2/12/w1200X800/Srisailam-.jpg " class="image1"  onclick="display('sectionSrisailamTemple')"/>
+  <h1 class="para">Srisailam Temple</h1>
+  </div>
+  <div class="d-flex flex-row">
+    <div class="card2">
+  <img src="https://media.istockphoto.com/id/1268716417/photo/misty-tirupathi.jpg?s=612x612&w=0&k=20&c=6tcFZEteaY9mOhZADzIRo8b8NmUqCEmsO6ZIgbfjGW0=  " class="image1"  onclick="display('sectionTirumalaTirupatiTemple')"/>
+  <h1 class="para">Tirumala Tirupati<br/> Temple</h1>
+  </div>
+  <div class="card2">
+    <img src="https://live.staticflickr.com/5344/7049847529_35abbaf180_b.jpg " class="image1"  onclick="display('sectionYagantitemple')"/>
+    <h1 class="para">Yaganti temple</h1>
+    </div>
+  <button class="button1" onclick="display('sectionhomepage')">Back</button>
+  </div>
+  </div>
+</div>
+  <div  id="sectionmeenakshipage">
+    <h1 class="heading1">Meenakshi Temple (Madurai)</h1>
+    <div class="card3">   
+      <img src="  https://www.culturalindia.net/iliimages/Meenakshi-Temple-ili-334-img-2.jpg " class="image2"/>
+      <img src="https://c1.wallpaperflare.com/preview/118/362/332/madurai-meenakshi-amman-temple-load-muruga-deity.jpg " class="image2"/>
+      <img src="http://vsemart.com/wp-content/uploads/2015/09/Exquisite-Meenakshi-Amman-Temple.jpg" class="image2"/>
+      <img src="https://www.esamskriti.com/photograph/1-_125015.jpg" class="image2"/>
+    </div>
+      <div class="card4">
+       <p class="para2">    
+                Madurai Meenakshi Sundareswarar temple was built by Pandayan Emperor Sadayavarman Kulasekaran I (1190 CE–1205 CE). He built the main Portions of the three-storeyed Gopuram at the entrance 
+        of Sundareswarar Shrine and the central portion of the Goddess Meenakshi Shrine are some of the earliest surviving parts of the temple. The traditional texts call him a poet-saint king, 
+        additionally credit him with a poem called Ambikai Malai, as well as shrines (koil) each for Natarajar and Surya near the main temple, Ayyanar in the east, Vinayagar in the south, Kariamalperumal 
+        in the west and Kali in the north. He also built a Mahamandapam. Kulasekara Pandya was also a poet and he composed a poem on Meenakshi named Ambikai Malai. Maravarman Sundara Pandyan I built 
+        a gopuram in 1231, then called Avanivendaraman, later rebuilt, expanded and named as Sundara Pandya Thirukkopuram. Chitra gopuram (W), also known as Muttalakkum Vayil, was built by Maravarman 
+        Sundara Pandyan II (1238-1251). This gopuram is named after the frescoes and reliefs that depict secular and religious themes of Hindu culture. Maravarman Sundara Pandyan II also added a pillared 
+        corridor to the Sundareswara shrine and the Sundara Pandyan Mandapam. It was rebuilt after the 14th-century damage, its granite structure was renovated by Kumara Krishnappar after 1595.</p>
+      <button class="button2" onclick="display('sectionhomepage')">BACK</button>
+      <button class="button3" onclick="display('sectionmenakshivideos')">MORE</button>
+      </div>
+      </div>
+      <div id="sectionmenakshivideos">
+        <div class="card5">
+        <div class="d-flex flex-row">
+       <div class="image5">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BAUfpdpws8g" allowfullscreen></iframe>
+        </div>
+        </div>
+        <div class="image5">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aysY7X2rKfg" allowfullscreen></iframe>
+        </div>
+        <button class="button4" onclick="display('sectionmeenakshipage')">BACK</button>
+      </div>
+      </div>
+   
+    
+      </div>
+  </div>
+  <div id="sectionKedarnathpage">
+    <h1 class="heading1">Kedarnath Temple </h1>
+    <div class="card3">   
+      <img src="https://letstourbharat.com/wp-content/uploads/2018/06/wp4501784-819x530.jpg " class="image2"/>
+      <img src=" https://media-cdn.tripadvisor.com/media/photo-s/1b/7a/32/2f/kedarnath-temple-was.jpg" class="image2"/>
+      <img src="https://bhatkantiholidays.com/wp-content/uploads/2020/10/kedarnath-temple-2.jpg" class="image2"/>
+      <img src=" https://pbs.twimg.com/media/EE4OA63U4AAIHUZ.jpg" class="image2"/>
+    </div>
+      <div class="card4">
+          
+       <h5> History and legends of origin</h5>
+       <p class="para2"> 
+        The Pandavas visit Kedarnath after the Mahabharata War
+        The temple, at a height of 3,583 m (11,755 ft), 223 km (139 mi) from Rishikesh, on the shores of Mandakini river, a tributary of Ganga, is a stone edifice of unknown date.[8] It is not certain
+         who built the original Kedarnath temple and when. The name "Kedarnath" means "the lord of the field": it derives from the Sanskrit words kedara
+         ("field") and natha ("lord"). The text Kashi Kedara Mahatmya states that it is so called because "the crop of liberation" grows here.[9]
+        
+        Many folk legends related to the Garhwal region, Lord Shiva and the creation of the Panch Kedar temples are narrated.
+        
+        A folk legend about Panch Kedar relates to the Pandavas, the heroes of the Hindu epic Mahabharata. The Pandavas defeated and slew their cousins — the Kauravas in the epic Kurukshetra war.
+         They wished to atone for the sins of committing fratricide (gotra hatya) and Brāhmanahatya (killing of Brahmins — the priest class) during the war. Thus, they handed over the reins of their 
+         kingdom to their kin and left in search of lord Shiva and to seek his blessings. First, they went to the holy city of Varanasi (Kashi), believed to be Shiva's favourite city and known for its 
+         Kashi Vishwanath Temple. But, Shiva wanted to avoid them as he was deeply incensed by the death and dishonesty at the Kurukshetra war and was, therefore, insensitive to Pandavas' prayers. 
+         Therefore, he assumed the form of a bull (Nandi) and hid in the Garhwal region.  </p>
+      <button class="button2" onclick="display('sectionhomepage')">BACK</button>
+      <button class="button3" onclick="display('sectionKedarnathvedios')">MORE</button>
+      </div>
+      </div>
+      <div id="sectionKedarnathvedios">
+        <div class="card5">
+        <div class="d-flex flex-row">
+       <div class="image5">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PeZx0uf7eZQ" allowfullscreen></iframe>
+        </div>
+        </div>
+        <div class="image5">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wubM7TfMYRA" allowfullscreen></iframe>
+        </div>
+        <button class="button4" onclick="display('sectionKedarnathpage')">BACK</button>
+      </div>
+    </div>
+ 
+  
+    </div>
+</div>
+<div id="sectionkonarkpage">
+  <h1 class="heading1">Konark Temple</h1>
+  <div class="card3">   
+    <img src="https://www.tripvaani.com/wp-content/uploads/2020/05/Konark-Sun-Temple-or-Black-Pagoda-The-Chariot-of-Sun.jpg " class="image2"/>
+    <img src=" https://live.staticflickr.com/3668/8857150478_6b028a691b_b.jpg" class="image2"/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfZDsY2kXM96jMZWsVCHEemJAMV68Zk1lCJg&usqp=CAU " class="image2"/>
+    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/2-sculpture-konark-sun-temple-konark-odisha-shashank-mehendale.jpg " class="image2"/>
+  </div>
+    <div class="card4">
+         
+     <h5> For its unique architecture</h5>
+     <p class="para2"> 
+     The sun temple was made from three types of stone.[23] Chlorite was used for the door lintel and frames as well as some sculptures. Laterite was used for the core of
+      the platform and staircases near the foundation. Khondalite was used for other parts of the temple. According to Mitra, the Khondalite stone weathers faster over time,
+       and this may have contributed to erosion and accelerated the damage when parts of the temples were destroyed.[23] None of these stones occur naturally nearby, and the 
+       architects and artisans must have procured and moved the stones from distant sources, probably using the rivers and water channels near the site.[23] The masons then
+        created ashlar, wherein the stones were polished and finished so as to make joints hardly visible.[23]
+
+The original temple had a main sanctum sanctorum (vimana), which is estimated to have been 229 feet (70 m)[17] tall. The main vimana fell in 1837. The main mandapa audience 
+hall (jagamohana), which is about 128 feet (39 m) tall, still stands and is the principal structure in the surviving ruins. Among the structures that have survived to the 
+current day are the dance hall (Nata mandira) and the dining hall (Bhoga mandapa).[2][17]  </p>
+    <button class="button2" onclick="display('sectionhomepage')">BACK</button>
+    <button class="button3" onclick="display('sectionkonarkvedios')">MORE</button>
+    </div>
+    </div>
+    <div id="sectionkonarkvedios">
+      <div class="card5">
+      <div class="d-flex flex-row">
+     <div class="image5">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PeZx0uf7eZQ" allowfullscreen></iframe>
+      </div>
+      </div>
+      <div class="image5">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wubM7TfMYRA" allowfullscreen></iframe>
+      </div>
+      <button class="button4" onclick="display('sectionkonarkpage')">BACK</button>
+    </div>
+  </div>
+
+
+  </div>
+</div>
+<div id="sectiongoldentemple">
+<h1 class="heading1">Golden Temple </h1>
+<div class="card3">   
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Golden_Temple_%28Harmandir_Sahib%29_in_Amritsar%2C_India.jpg/640px-Golden_Temple_%28Harmandir_Sahib%29_in_Amritsar%2C_India.jpg " class="image2"/>
+  <img src="https://spiderimg.amarujala.com/assets/images/2015/04/14/golden-temple-552cf0c2d5477_exlst.jpg " class="image2"/>
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/b7ecf6f6-cd4d-43c7-a10c-884985528d7e/d1f9sje-af4ea63b-8a51-4daa-be28-a3db1ea45f58.jpg" class="image2"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Benares-_The_Golden_Temple%2C_India%2C_ca._1915_%28IMP-CSCNWW33-OS14-66%29.jpg/1711px-Benares-_The_Golden_Temple%2C_India%2C_ca._1915_%28IMP-CSCNWW33-OS14-66%29.jpg" class="image2"/>
+</div>
+  <div class="card4">
+      
+   <h5>Represents the magnificence and strength of Sikhs around the world.</h5>
+   <p class="para2"> 
+   The Golden Temple is an open house of worship for all people, from all walks of life and faiths.[3] It has a square plan with four entrances, and a circumambulation path around the pool. 
+   The four entrances to the gurudwara symbolises the Sikh belief in equality and the Sikh view that all people are welcome into their holy place.[14] The complex is a collection of 
+   buildings around the sanctum and the pool.[3] One of these is Akal Takht, the chief centre of religious authority of Sikhism.[5] Additional buildings include a clock tower, the offices 
+   of the Gurdwara Committee, a Museum and a langar – a free Sikh community–run kitchen that offers a vegetarian meal to all visitors without discrimination.[5] Over 150,000 people visit 
+   the holy shrine everyday for worship.[15] The Gurdwara complex has been nominated as a UNESCO World Heritage Site, and its application is pending on the tentative list of UNESCO.  </p>
+  <button class="button2" onclick="display('sectionmoreimages')">BACK</button>
+  <button class="button3" onclick="display('sectiongoldenvedios')">MORE</button>
+  </div>
+  </div>
+  <div id="sectiongoldenvedios">
+    <div class="card5">
+    <div class="d-flex flex-row">
+   <div class="image5">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jA7NhLxv29g" allowfullscreen></iframe>
+    </div>
+    </div>
+    <div class="image5">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_3ceg5Ysf5w" allowfullscreen></iframe>
+    </div>
+    <button class="button4" onclick="display('sectiongoldentemple')">BACK</button>
+  </div>
+</div>
+
+
+</div>
+</div>
+<div id="sectionbadrinathpage">
+<h1 class="heading1"> Badrinath Temple </h1>
+<div class="card3">   
+<img src="https://i.ytimg.com/vi/Ujp4rbM91mg/maxresdefault.jpg" class="image2"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0oOjt_pMI-Hhw9Rut1CWzF_YnJO61i64RUg&usqp=CAU " class="image2"/>
+<img src="https://static.toiimg.com/thumb/69216871.cms?resizemode=75&width=1200&height=900" class="image2"/>
+<img src="https://qph.cf2.quoracdn.net/main-qimg-caf388e041f4d3a7c054593b9584bd25-lq" class="image2"/>
+</div>
+<div class="card4">
+    
+ <h5>Snowfall is seen very often during winters</h5>
+ <p class="para2"> 
+ The Badrinath temple is the main attraction in the town. According to legend, Adi Shankaracharya discovered a black stone image of Lord Badrinarayan 
+ made of Shaligram stone in the Alaknanda River. He originally enshrined it in a cave near the Tapt Kund hot springs.[10][11] In the sixteenth century, 
+ the King of Garhwal moved the murti to the present temple.[10] The temple is approximately 50 ft (15 m) tall with a small cupola on top, covered with a 
+ gold gilt roof.[10] The facade is built of stone, with arched windows. A broad stairway leads up to a tall arched gateway, which is the main entrance.
+  The architecture resembles a Buddhist vihara (temple), with the brightly painted facade also more typical of Buddhist temples.[12] Just inside is the 
+  mandapa, a large pillared hall that leads to the garbha grha, or main shrine area. The walls and pillars of the mandapa are covered with intricate carving. </p>
+<button class="button2" onclick="display('sectionmoreimages')">BACK</button>
+<button class="button3" onclick="display('sectionbadrinathvedios')">MORE</button>
+</div>
+</div>
+<div id="sectionbadrinathvedios">
+  <div class="card5">
+  <div class="d-flex flex-row">
+ <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zbxIirUkSH0" allowfullscreen></iframe>
+  </div>
+  </div>
+  <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CtRZSN8tK-0" allowfullscreen></iframe>
+  </div>
+  <button class="button4" onclick="display('sectionbadrinathpage')">BACK</button>
+</div>
+</div>
+
+
+</div>
+</div>
+<div id="sectionsomanthtemple">
+<h1 class="heading1">Somnath Temple </h1>
+<div class="card3">   
+<img src="https://www.gujaratexpert.com/wp-content/uploads/2016/08/Somnath-Jyotirlinga-Temple.jpg" class="image2"/>
+<img src="https://www.astroved.com/astropedia/assets/images/temples/somnath-temple.jpg " class="image2"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMbd-HuyfDSvDK0h_A842t34ds7rsfDMvFGNJIoGMLQNQHWSZPM8Lk0wUAMCoou21NZ8Q&usqp=CAU" class="image2"/>
+<img src="https://www.thehistoryhub.com/wp-content/uploads/2017/02/Somnath-Temple-Inside.jpg" class="image2"/>
+</div>
+<div class="card4">
+    
+ <h5>Nomenclature and significance</h5>
+ <p class="para2"> 
+  The Somnath temple is located along the coastline in Prabhas Patan near Veraval, Saurashtra region of Gujarat. 
+  It is about 400 kilometres (249 mi) southwest of Ahmedabad, 82 kilometres (51 mi) south of Junagadh – another
+   major archaeological and pilgrimage site in Gujarat. It is about 7 kilometres (4 mi) southeast of the Veraval 
+   railway junction, about 130 kilometres (81 mi) southeast of the Porbandar airport and about 85 kilometres (53 mi) 
+   west of the Diu airport.
+
+  The Somnath temple is located close to the ancient trading port of Veraval, one of three in Gujarat from where
+   Indian merchants departed to trade goods. The 11th-century Persian historian Al-Biruni states that Somnath has
+    become so famous because "it was the harbor for seafaring people, and a station for those who went to and fro
+     between Sufala in the country of Zanj (east Africa) and China". Combined with its repute as an eminent pilgrimage
+      site, its location was well known to the kingdoms within the Indian subcontinent.[14][15] Literature and epigraphical
+       evidence suggests that the medieval era Veraval-Patan area port was also actively trading with the Middle East and Southeast Asia.
+        This brought wealth and fame to the Veraval area as well as the temple. </p>
+<button class="button2" onclick="display('sectionmoreimages')">BACK</button>
+<button class="button3" onclick="display('sectionsomanthvedios')">MORE</button>
+</div>
+</div>
+<div id="sectionsomanthvedios">
+  <div class="card5">
+  <div class="d-flex flex-row">
+ <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wFMttnRpsa0" allowfullscreen></iframe>
+  </div>
+  </div>
+  <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/efV4nifmvRk" allowfullscreen></iframe>
+  </div>
+  <button class="button4" onclick="display('sectionsomanthtemple')">BACK</button>
+</div>
+</div>
+
+
+</div>
+</div>
+<div id="sectionRamanathaswamytemple">
+<h1 class="heading1">Ramanathaswamy Temple </h1>
+<div class="card3">   
+<img src="https://static.toiimg.com/thumb/msid-51680192,width=1200,height=900/51680192.jpg" class="image2"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx1L4fA8GW6TalI8uXgHCnWrURa6j7tkDvqg&usqp=CAU" class="image2"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq8d-Rzbc1tzn1gW4zonESEEkux9D9ReYj2w&usqp=CAU" class="image2"/>
+<img src="https://static.toiimg.com/photo/msid-58104761,width-96,height-65.cms" class="image2"/>
+</div>
+<div class="card4">
+    
+ <h5></h5>
+ <p class="para2"> 
+  The temple in its current form is believed to have been built during the 17th century, while Fergusson believes the small vimana in
+   the west corridor belongs to the 11th or 12th century.[3] The temple is said to have been sanctioned for construction by King 
+   Kizhavan Sethupathi or Raghunatha Kilavan. The contribution of the Jaffna kings of Pandya Dynasty to the temple was considerable.
+   [4] King Jeyaveera Cinkaiariyan (1380–1410 CE) shipped stone blocks from Koneswaram temple, Trincomalee to renovate the temple's 
+   sanctum sanctorum. Jeyaveera Cinkaiariyan's successor Gunaveera Cinkaiariyan (Pararacacekaran V), a trustee at Rameswaram who also
+oversaw structural development of this temple and the promotion of Saivite beliefs donated part of his revenue to Koneswaram. Especiall     to be remembered are the immense sums that were spent during the tenure of Pradani Muthirulappa Pillai towards the restoration of the Pagodas 
+ which were falling into ruins and the splendid Chockattan Mantapam or the cloistered precincts of the temple at Rameswaram that he finally 
+  completed. The rulers of Sri Lanka also contributed to the temple; Parakrama Bahu (1153–1186 CE) was involved in the construction      of the sanctum sanctorum of the temple.[4] Also, Sri Lankan king Nissanka Malla, contributed to the temple's development by making 
+ donations and sending workers.[5] </p>
+<button class="button2" onclick="display('sectionmoreimages')">BACK</button>
+<button class="button3" onclick="display('sectionRamanathaswamyvedios')">MORE</button>
+</div>
+</div>
+<div id="sectionRamanathaswamyvedios">
+  <div class="card5">
+  <div class="d-flex flex-row">
+ <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zcrMkt462QM" allowfullscreen></iframe>
+  </div>
+  </div>
+  <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xMmAruzg0EE" allowfullscreen></iframe>
+  </div>
+  <button class="button4" onclick="display('sectionRamanathaswamytemple')">BACK</button>
+</div>
+</div>
+
+
+</div>
+</div>
+<div id="sectionGangotriTemple">
+<h1 class="heading1"> Gangotri Temple </h1>
+<div class="card3">   
+<img src="https://uttarakhandtourism.gov.in/sites/default/files/2020-08/gangotri.jpg" class="image2"/>
+<img src="https://www.indiamike.com/files/images/88/26/41/uttarkashi-kashi-vishwanath-temple.jpg" class="image2"/>
+<img src="https://www.traveliqs.in/resources/img/107/1559/1559.png" class="image2"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN42vF_BydtfBJTA3LFIBzwIvZN7mbegXAz4be6sC12wfy7pDWiaWfIdAp3yj8lwUq2mI&usqp=CAU" class="image2"/>
+</div>
+<div class="card4">
+    
+ <h5>Gangotri Temple one of the four dhams in Uttarakhand.</h5>
+ <p class="para2"> 
+  A temple dedicated to Goddess Ganga is located near a sacred stone where King Bhagiratha worshipped Lord Shiva. According to Hindu culture, Goddess Ganga took the form
+   of a river to absolve the sins of King Bhagiratha's predecessors, following his severe penance of several centuries. Bhagiratha Shila is a sacred slab where king
+    Bhagiratha meditated. Ganga is believed to have touched earth at this spot. According to another legend, Pandavas performed the great ‘Deva Yagna‘ here to atone
+     the deaths of their kinsmen in the epic battle of Mahabharata. Hindus believe that performing the ancestral rites on the banks of Bhagirathi frees the spirit of the 
+     ancestor from the cycle of rebirth and a holy dip in its waters cleanses sins committed in the present also past births.[3]
+
+  The Gangotri temple opens on the auspicious day of Akshaya Tritiya which falls in the month of May and closes on Yama Dwitiya or Bhai Dooj which falls in the month of
+   November. The Gangotri temple remains closed for the rest of six months. The Goddess shifts to the village Mukhba during the winter months. In the month of May, Ganga
+    Dussehra is celebrated with great fanfare as the day of the birth of Ganga  </p>
+<button class="button2" onclick="display('sectionmoreimages')">BACK</button>
+<button class="button3" onclick="display('sectionGangotrivedios')">MORE</button>
+</div>
+</div>
+<div id="sectionGangotrivedios">
+  <div class="card5">
+  <div class="d-flex flex-row">
+ <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rm7hq8aU00g" allowfullscreen></iframe>
+  </div>
+  </div>
+  <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vxCcPlOnDkI" allowfullscreen></iframe>
+  </div>
+  <button class="button4" onclick="display('sectionGangotriTemple')">BACK</button>
+</div>
+</div>
+
+
+</div>
+</div>
+<div id="sectionKashiVishwanathTemple">
+<h1 class="heading1">Kashi Vishwanath Temple </h1>
+<div class="card3">   
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kashi_Vishwanath_Temple_Banaras.jpg/1280px-Kashi_Vishwanath_Temple_Banaras.jpg" class="image2"/>
+<img src="https://shrikashivishwanath.org/img/live.png" class="image2"/>
+<img src="https://www.holidify.com/images/cmsuploads/compressed/kashi-vishwanath_20191218170254.jpg" class="image2"/>
+<img src="https://qph.cf2.quoracdn.net/main-qimg-c29d1ec06a12e29c962332c0b690d650-lq" class="image2"/>
+</div>
+<div class="card4">
+    
+ <h5>Maratha and British period</h5>
+ <p class="para2"> 
+  As per the Shiva Purana, once Brahma (the Hindu God of creation) and Vishnu (the Hindu God of Preservation) had an 
+  argument about who was supreme.[3] To test them, Shiva pierced the three worlds as a huge endless pillar of light,
+   the jyotirlinga. To determine who was mightier Vishnu took the form of a boar and sought out the bottom while Brahma 
+   took the form of a swan to fly to the pillar's top. Brahma out of arrogance lied that he had found out the end, offering 
+   a katuki flower as witness. Vishnu modestly confessed to being unable to find the bottom. Shiva then took the form of the wrathful 
+   Bhairava, cut off Brahma's lying fifth head, and cursed Brahma that he would not be worshipped. Vishnu for his honesty would be 
+   worshiped as equal to Shiva with his own temples for all eternity. The jyotirlinga is an ancient axis mundi symbol representing the
+    supreme formless (nirguna) reality at the core of creation, out of which the form (saguna) of Shiva appears. The jyothirlinga
+     shrines, thus are places where Shiva appeared as a fiery column of light.[4][5] There are 64 forms of Shiva, not to be confused
+      with Jyotirlingas.  </p>
+<button class="button2" onclick="display('sectionmoreimages')">BACK</button>
+<button class="button3" onclick="display('sectionKashiVishwanathvedios')">MORE</button>
+</div>
+</div>
+<div id="sectionKashiVishwanathvedios">
+  <div class="card5">
+  <div class="d-flex flex-row">
+ <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UOKBE-ngrkY" allowfullscreen></iframe>
+  </div>
+  </div>
+  <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/M3f_DoFH510" allowfullscreen></iframe>
+  </div>
+  <button class="button4" onclick="display('sectionKashiVishwanathTemple')">BACK</button>
+</div>
+</div>
+
+
+</div>
+</div>
+<div id="sectionSrisailamTemple">
+<h1 class="heading1">Srisailam Temple</h1> 
+<div class="card3">   
+<img src="https://imgmedia.lbb.in/media/2020/09/5f6de86fc82aae0a2edb6878_1601038447254.jpg" class="image2"/>
+<img src="https://i0.wp.com/www.opindia.com/wp-content/uploads/2019/12/Srisailam-temple-092843024.jpg?fit=1000%2C547&ssl=1" class="image2"/>
+<img src="https://www.shutterstock.com/image-photo/statue-shiva-lingam-srisailam-andhra-260nw-1918300217.jpg" class="image2"/>
+<img src="https://www.astrojyoti.com/wp-content/uploads/2018/05/srisailam-mallikarjuna-jyotirlinga.jpg" class="image2"/>
+</div>
+<div class="card4">
+    
+ <h5>The devotees can be able to touch the Linga</h5>
+ <p class="para2"> 
+  There is a mention of Srisailam in ancient scriptures belonging to the 3rd century C.E. Satakarni in scriptures describing lands
+   under his rule mentioned Srisailam as Chakora Shetagiri. Post the Satavahanas, the Ikshvaku dynasty ruled Andhra. Although these
+    rulers no more exist to tell the tale, it is fair to say that they considered Srisailam as a holy destination. In the 6th century C.E, 
+    Kadamba king Mayura Sharma addressed Srisailam as Sriparvatam. A kind called Bruhaddhana with the help of Kadamba's won over then rulers, the 
+    Pallava dynasty to conquer and rule over the land. They unified Sriparvatam along with the land they won over. In the dynasty of Badami Chalukyas,
+     the ruler Pulakeshi constructed many temples and known to be the king of temples. He was known to be the first Kshatriya to have performed Shiva Deeksha. </p>
+<button class="button2" onclick="display('sectionmoreimages')">BACK</button>
+<button class="button3" onclick="display('sectionSrisailamvedios')">MORE</button>
+</div>
+</div>
+<div id="sectionSrisailamvedios">
+  <div class="card5">
+  <div class="d-flex flex-row">
+ <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N9iQlOhco_0" allowfullscreen></iframe>
+  </div>
+  </div>
+  <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DRs6vkmfJCw" allowfullscreen></iframe>
+  </div>
+  <button class="button4" onclick="display('sectionSrisailamTemple')">BACK</button>
+</div>
+</div>
+
+
+</div>
+</div>
+<div id="sectionTirumalaTirupatiTemple">
+<h1 class="heading1">Sri Venkateswara Swami Vaari Temple</h1> 
+<div class="card3">   
+<img src="https://qph.cf2.quoracdn.net/main-qimg-f615863706b9e4f8cc3aa6459e33136b-pjlq" class="image2"/>
+<img src="https://pbs.twimg.com/media/D83pQ_tV4AABIuA.jpg" class="image2"/>
+<img src="https://www.tusktravel.com/blog/wp-content/uploads/2022/02/Tirupati-Andhra-Pradesh.jpg" class="image2"/>
+<img src="https://i0.wp.com/bharatsansar.com/wp-content/uploads/2021/05/Tirumala-Tirupati-Devasthanam-Temple-1.jpg?resize=1024%2C1024&ssl=1" class="image2"/>
+</div>
+<div class="card4">
+    
+ <h5>The idol is actually placed in the right hand corner of the shrine</h5>
+ <p class="para2"> 
+  Sri Venkateswara Swami Vaari Temple is a Hindu temple situated in the hill town of Tirumala at Tirupati in Tirupati district of Andhra Pradesh, 
+  India. The Temple is dedicated to Venkateswara, a form of Vishnu, who is believed to have appeared on the earth to save mankind from 
+  trials and troubles of Kali Yuga. Hence the place has also got the name Kaliyuga Vaikuntha and the Lord here is referred to as Kaliyuga 
+  Prathyaksha Daivam. The temple is also known by other names like Tirumala Temple, Tirupati Temple and Tirupati Balaji Temple. Venkateswara 
+  is known by many other names: Balaji, Govinda, and Srinivasa.[3] The temple is run by Tirumala Tirupati Devasthanams (TTD), which is under 
+  control of Andhra Pradesh Government. The head of TTD is appointed by Andhra Pradesh Government. The revenue from this shrine is used by Andhra
+   Pradesh government.[4][5]
+
+Tirumala Hills are part of Seshachalam Hills range. The hills are 853 metres (2,799 ft) above sea level and comprise seven peaks, representing the
+ seven heads of Adisesha. The temple lies on the seventh peak—Venkatadri, on the southern banks of Sri Swami Pushkarini, a holy water tank. Hence
+  the temple is also referred to as "Temple of Seven Hills".[6] Tirumala town covers an area of about 10.33 sq mi (26.75 km2). </p>
+<button class="button2" onclick="display('sectionmoreimages')">BACK</button>
+<button class="button3" onclick="display('sectionTirumalaTirupativedios')">MORE</button>
+</div>
+</div>
+<div id="sectionTirumalaTirupativedios">
+  <div class="card5">
+  <div class="d-flex flex-row">
+ <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fIEUz1mKFlE" allowfullscreen></iframe>
+  </div>
+  </div>
+  <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ShBBeqgSBK8" allowfullscreen></iframe>
+  </div>
+  <button class="button4" onclick="display('sectionTirumalaTirupatiTemple')">BACK</button>
+</div>
+</div>
+
+
+</div>
+</div>
+<div id="sectionYagantitemple">
+<h1 class="heading1">Yaganti temple</h1> 
+<div class="card3">   
+<img src="https://media.hitfull.com/article/images/Yaganti-Uma-Maheswara-Temple2-copy2.jpg" class="image2"/>
+<img src="https://spiderimg.amarujala.com/assets/images/2018/08/22/yaganti-uma-maheswara-temple_1534925736.jpeg" class="image2"/>
+<img src="https://media-cdn.tripadvisor.com/media/photo-s/1c/1c/6a/7a/the-temple-seen-from.jpg" class="image2"/>
+<img src="https://2.bp.blogspot.com/-OfwZgwV0QY8/WrsSKZu3ujI/AAAAAAAAPLU/2JU6C2-C_Ak-ChE6kMCz1PXZYlCP7On-wCLcBGAs/s1600/1.jpg" class="image2"/>
+</div>
+<div class="card4">
+    
+ <h5>Growing Nandi.</h5>
+ <p class="para2"> 
+  This temple was constructed by King Harihara Bukka Raya of the Sangama Dynasty of the Vijayanagara
+   Empire in the 15th century.[citation needed] It was built according to Vaishnavaite traditions.
+
+One story of the site's origin is as follows: The sage Agastya wanted to build a temple for Lord Venkateswara 
+on this site. However, the statue that was made could not be installed as the toe nail of the idol got broken.
+ The sage was upset over this and performed a penance for Shiva. When Shiva appeared, he said the place suits
+  Shiva better as it resembles Kailash. Agastya then requested Shiva to give the devotees a Parvathi Goddess as
+  Lord Uma Maheswara in a single stone, which Shiva obliged.
+A second story is as follows: Chitteppa, a devotee of Shiva, was worshiping Shiva and Shiva appeared to 
+him as a tiger. Chitteppa understood that it was Lord Shiva in tiger form, and shouted Neganti Shivanu ne
+ kanti (meaning: I saw Shiva I saw), and danced with joy. There is a cave called Chitteppa nearby. Sri Yaganti Uma 
+ Maheswara Temple is one of the few temples patronized by one of the great dynasties of India. Every year Maha Shivaratri is
+  celebrated and a large number of devotees from all over Andhra Pradesh visit. Shiva, Parvati and Nandi are the
+   main deities in this temple. This temple is 14 km away from Banaganipalli in kurnool dt. The saint lord Veerabrahmendra swami
+    stayed here for some time and wrote Kalagnanam. </p>
+<button class="button2" onclick="display('sectionmoreimages')">BACK</button>
+<button class="button3" onclick="display('sectionYagantivedios')">MORE</button>
+</div>
+</div>
+<div id="sectionYagantivedios">
+  <div class="card5">
+  <div class="d-flex flex-row">
+ <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nvMlck4OyB4" allowfullscreen></iframe>
+  </div>
+  </div>
+  <div class="image5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4ibzImK5Rfs" allowfullscreen></iframe>
+  </div>
+  <button class="button4" onclick="display('sectionYagantitemple')">BACK</button>
+</div>
+      </div>
+
+    
+      </div>
+  </div>
+ <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+  </body>
+</html>  
