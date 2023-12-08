@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.back_ground {
+    background-color: black;
+    background-size: cover;
+
+}
+
+.tittle_name {
+    font-family: "Roboto";
+    font-weight: bold;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+
+}
+
+.arrow {
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.para_graph {
+
+    color: #edd4b7;
+    background-color: #8f6739;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: "Serif";
+    font-weight: normal;
+    border-radius: 15px;
+    margin: 3px;
+
+}
+
+.heading {
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    margin-top: 25px;
+
+}
+
+.para_setting {
+    color: #edd4b7;
+    padding-left: 15px;
+    font-family: "Serif";
+}
+
+.list {
+    color: #e6dcd1;
+    font-family: "Serif";
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+.span_element {
+    color: lightblue;
+    font-family: "Roboto";
+}
+
+.span_word {
+    color: white;
+    font-family: "Roboto";
+}
+
+.heading {
+    font-size: 25px;
+}
+
+
+
+.para_basic {
+    font-size: 15px;
+    padding-left: 15px;
+    color: lightblue;
+    font-family: "serif";
+
+}
+
+.button {
+    color: white;
+    background-color: blue;
+    border-color: lightblue;
+    font-family: "Roboto";
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 25px;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+.more-help {
+    color: white;
+    font-family: "serif";
+    padding-left: 10px;
+
+}
+
+.heading_more {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "roboto";
+    padding-left: 10px;
+
+}
+
+.arrow_down_1 {
+    margin-left: 40px;
+}
+
+.input_bar {
+    padding-left: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-family: "serif";
+}
+
+.help_line {
+    color: white;
+    padding-left: 15px;
+    font-family: "serif";
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.contact_para {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: "Serif";
+    font-weight: normal;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.more_help {
+    color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: "Serif";
+    font-weight: normal;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.contact_us_button {
+    background-color: #88bfa1;
+    color: black;
+    border-color: lightblue;
+    font-family: "Roboto";
+    font-weight: bold;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 25px;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+.bg-contact {
+    background-image: linear-gradient(#6a26c9, #282d5c, #98f5c2);
+    background-size: cover;
+    text-align: center;
+}
+
+.contact_heading {
+    color: white;
+    font-family: "Bree serif";
+    font-weight: bold;
+
+
+}
+
+.contact_para {
+    color: white;
+    font-family: "serif";
+    font-size: 25px;
+}
+
+.input_heading {
+    color: white;
+    font-family: "Bree serif";
+    font-size: 25px;
+    margin-right: 90px;
+
+}
+
+.input_heading_1 {
+    color: white;
+    font-family: "Bree serif";
+    font-size: 25px;
+    margin-right: 35px;
+}
+
+.button_3 {
+    color: white;
+    background-color: blue;
+    border-color: lightblue;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-left: 25px;
+    border-radius: 15px;
+    width: 90px;
+    margin-bottom: 25px;
+}
+
+.textarea {
+    text-align: left;
+}
+
+.submit_page {
+    background-color: green;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.request_line {
+    text-align: center;
+    color: #303438;
+    padding-top: 30px;
+
+    font-family: "serif";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.button_4 {
+    color: white;
+    background-color: green;
+    border-color: lightblue;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-left: 25px;
+    border-radius: 15px;
+    width: 90px;
+    margin-bottom: 25px;
+}
+
+.go_on:hover {
+    background-color: green;
+}
+
+.back_on:hover {
+    background-color: #5d5e54;
+}
